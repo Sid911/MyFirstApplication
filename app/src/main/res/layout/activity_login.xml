@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/grey"
+    android:fadeScrollbars="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.ambujadev.myapplication.Login">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/EmailLog"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_weight="1"
+                android:background="@color/mis"
+                android:ems="10"
+                android:hint="Email....."
+                android:inputType="textEmailAddress"
+                android:textColor="@color/cardview_dark_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/PasswordLog"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:background="@color/mis"
+                android:ems="10"
+                android:hint="Password....."
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@color/cardview_dark_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="76dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/ClassLog"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:background="@color/mis"
+                android:ems="10"
+                android:hint="Class...."
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/cardview_dark_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="132dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/SectionLog"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_weight="1"
+                android:background="@color/mis"
+                android:ems="10"
+                android:hint="Section...."
+                android:inputType="textCapCharacters|textPersonName"
+                android:textColor="@color/cardview_dark_background"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="183dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SignInbtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/holi"
+            android:elevation="6dp"
+            android:fontFamily="cursive"
+            android:text="Sign In.."
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="285dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/otherbtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/holi"
+        android:elevation="18dp"
+        android:fontFamily="cursive"
+        android:text="Other Options...."
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+</LinearLayout>

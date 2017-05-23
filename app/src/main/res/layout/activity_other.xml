@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ambujadev.myapplication.Other"
+    android:orientation="vertical"
+    android:background="@mipmap/back2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/Acc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Don't Have Account?"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/Acc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="No Problem......"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/Forgotbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/mis"
+        android:elevation="13dp"
+        android:fontFamily="cursive"
+        android:text="Forgot the password."
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Uid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Write the UID......"
+        android:inputType="textPersonName"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/classf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Write Your Class....."
+        android:inputType="numberDecimal"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/sectionf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Write Your Section....."
+        android:inputType="textPersonName"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/searchf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:fontFamily="cursive"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/mis"
+        android:elevation="13dp"
+        android:fontFamily="cursive"
+        android:text="Login as Guest.."
+        android:textAllCaps="false"
+        android:textSize="36sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

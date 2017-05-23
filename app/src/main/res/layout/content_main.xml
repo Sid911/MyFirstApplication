@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ambujadev.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@mipmap/adg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/img3">
+
+    <Button
+        android:id="@+id/Registerbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/glass"
+        android:text="Register Page.."
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="900dp" />
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "532425901091",
+    "firebase_url": "https://ambuja-vidya-peeth-7b0e8.firebaseio.com",
+    "project_id": "ambuja-vidya-peeth-7b0e8",
+    "storage_bucket": "ambuja-vidya-peeth-7b0e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532425901091:android:87ab879ae96b9757",
+        "android_client_info": {
+          "package_name": "com.ambujadev.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532425901091-r85dokgks4c9er63q92kik8k58joh1ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ambujadev.myapplication",
+            "certificate_hash": "29e0fab47cca78a62516a7501050102c6c7189e2"
+          }
+        },
+        {
+          "client_id": "532425901091-9p0ceo367e0n4iuvdbve0rbl8d70afvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEXrUs1QOTlinWT4iBC98Cyfrs_MPsAKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532425901091-9p0ceo367e0n4iuvdbve0rbl8d70afvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8f7f3</color>
+    <color name="colorPrimaryDark">#adacaa</color>
+    <color name="colorAccent">#9c9b91</color>
+    <color name="exam">#b9fffbfb</color>
+    <color name="ptm">#e4ffffff</color>
+    <color name="normal">#41ffffff</color>
+    <color name="holi">#81eaeaea</color>
+    <color name="sundy">#d4d4d4</color>
+    <color name="mis">#38ffffff</color>
+
+    <color name="colorPrimary2">#f5f8fa</color>
+    <color name="colorPrimaryDark2">#81cdfc</color>
+    <color name="black_alpha_40">#1fa2f2</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
+
